@@ -7,7 +7,7 @@ public class BookingDAO {
 	public void addBooking(Booking booking) throws SQLException {
 		String query = "insert into booking values(?,?,?,?)";
 		Connection con = DBConnection.getConnection();
-		PreparedStatement st = con.prepareStatement(query);
+		PreparedStatement st = con.prepareStatement(query);  
 		java.sql.Date sqldate = new java.sql.Date(booking.date.getTime());
 		st.setInt(1, booking.booking_id);
 		st.setString(2, booking.passenger_name);
