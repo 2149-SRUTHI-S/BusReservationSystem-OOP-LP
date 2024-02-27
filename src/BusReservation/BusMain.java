@@ -1,7 +1,7 @@
 package BusReservation;
 
 import java.sql.*;
-import java.util.*;
+import java.util.*; 
 
 public class BusMain {
 	public static void main(String args[]) throws ClassNotFoundException, SQLException {
