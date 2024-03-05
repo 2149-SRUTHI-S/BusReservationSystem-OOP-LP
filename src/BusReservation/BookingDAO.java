@@ -1,7 +1,7 @@
 package BusReservation;
       
 import java.util.Date;    
-import java.sql.*;  
+import java.sql.*;    
 
 public class BookingDAO {
 	public void addBooking(Booking booking) throws SQLException {  
